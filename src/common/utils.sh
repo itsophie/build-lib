@@ -1,5 +1,5 @@
 
-#
+##
 # Common utility functions, e.g. to make curl requests
 
 ## Logging helpers
