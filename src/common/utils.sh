@@ -169,7 +169,7 @@ function link_python {
     local PYTHONPATH=$1
 
     export PATH=${PYTHONPATH}/bin:$PATH
-    echo "export PATH=${PYTHONPATH}/bin:$PATH" >> "${HOME}/.bashrc"
+    echo -e "\nexport PATH=${PYTHONPATH}/bin:$PATH" >> "${HOME}/.bashrc"
 }
 
 #######################################
